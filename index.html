@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Movie Search</h1>
+        <div class="search-section">
+            <input type="text" id="search-input" placeholder="Search for movies...">
+            <button onclick="searchMovies()" class="btn">Search</button>
+        </div>
+        <div id="movie-list"> </div>
+        <div id="pagination"></div>
+        <h2>Favorites</h2>
+        <div class="fav">
+            <div id="favorites-list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

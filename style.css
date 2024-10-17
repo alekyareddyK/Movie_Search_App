@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(160, 118, 229),#fff,rgb(175, 133, 219));
+}
+
+.app {
+    width: 90%;
+    max-width: 800px;
+    background:  #dadafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+#search-input{
+    padding: 5px;
+    width:70%;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 5px;
+    width:20%;
+    background:  rgb(160, 118, 229);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background:  rgb(108, 45, 209);
+    color: white;
+}
+
+
+button{
+    background:  rgb(160, 118, 229);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+button:hover{
+    background:  rgb(108, 45, 209);
+    color: white;
+}
+
+
+.movie-item, .favorite-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #5f5a5a;
+}
+
+.movie-details {
+    margin-left: 10px;
+}
+
+.pagination{
+    margin: 10px;
+    padding:5px;
+}
+
+.fav{
+    background: #dadafa;
+    border-radius:10px;
+    box-shadow:  5px 5px 10px  rgb(203, 133, 244),
+    -5px -5px 10px  rgb(203, 133, 244);
+}
